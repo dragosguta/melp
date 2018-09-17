@@ -1,0 +1,6 @@
+.DS_Store
+swift/.build
+swift/Packages
+/*.xcodeproj
+electron/node_modules
+electron/package-lock.json
