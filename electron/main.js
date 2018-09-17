@@ -56,6 +56,7 @@ function createMenu() {
 }
 
 function getEvents() {
+  // Change from 'DG' to your calendar name on the following line
   calReader = spawn(path.join(__dirname, '../swift/.build/debug/melp'), ['-c', 'DG']);
   calReader.stdout.on('data', data => sortEvents(data.toString()));
 }
