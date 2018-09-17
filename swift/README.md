@@ -1,3 +1,3 @@
-# melp
+**Melp**.
 
-A description of this package.
+Command line scripts for Mac OS and iCal interactions.
